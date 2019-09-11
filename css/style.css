@@ -1,0 +1,103 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image: url(../img/body2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.99;
+}
+
+article {
+    width: 100%;
+    height: auto;
+}
+
+#register {
+    margin: 18px 20%;
+    background-color: rgba(235, 235, 205, 0.7);
+    padding: 5px 20%;
+    border-radius: 3px;
+}
+
+form {
+    margin: 90px 20%;
+    background-color: rgba(235, 235, 205, 0.7);
+    padding: 20px 20%;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+img {
+    width: 2rem;
+    height: auto;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+input {
+    padding: 15px 10px;
+    margin: 5px 0px;
+    width: 100%;
+    color: #666;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    background-color: rgb(34, 139, 34);
+    padding: 8px 13px;
+    margin: 10px 0px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #57A639;
+}
+
+button[type="reset"] {
+    float: right;
+    background-color: #FFA420;
+    padding: 8px 13px;
+    margin: 10px 0px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: #FF7514;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgba(26, 24, 24, 0.692);
+}
+
+a {
+    color: rgba(7, 7, 248, 0.562);
+    cursor: pointer;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(11, 11, 190, 0.562);
+}
+
+a:focus {
+    color: rgba(3, 3, 85, 0.466);
+}
